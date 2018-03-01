@@ -1,0 +1,24 @@
+.container{
+    margin-top: 150px;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.granted {
+    border: 2px solid #3bff00 !important; }
+
+.denied {
+    border: 2px solid #ff2100 !important; }
+
+.error {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 7%;
+    margin-bottom: 15px;
+    border: 0px solid;
+    border-radius: 6px;
+}
