@@ -15,7 +15,7 @@
 	<?php if( $_POST ){ $controller->completeRegistration(); } ?>
     <script language="JavaScript" type="text/javascript">
         
-        function changeurl(){eval(self.location="index.php");}
+        function changeurl(){self.location="index.php";}
         
         window.setTimeout("changeurl();",4000);
         

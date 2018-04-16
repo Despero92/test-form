@@ -1,5 +1,6 @@
 <?php
-include '..\model\sql_queries.php';
+define('DOC_ROOT_PATH', $_SERVER['DOCUMENT_ROOT'].'/');
+include DOC_ROOT_PATH . 'model\sql_queries.php';
 
 
 $sql = new SQL;

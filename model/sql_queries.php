@@ -1,7 +1,5 @@
 <?php
-
-require_once 'db.php';
-require_once '..\controll\controller.php';
+include 'db.php';
 
 
 class SQL  {
